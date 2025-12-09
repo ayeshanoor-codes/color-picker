@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: a;
+}
+
+/* MAIN BODY DESIGN */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/1200x/d5/ed/42/d5ed42aae85cf04b2c77efe3cf856aee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+/* CONTAINER */
+.container {
+    background: rgba(255, 254, 254, 0.25);
+    backdrop-filter: blur(8px);
+    padding: 2rem 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: min(90vw, 400px);
+    text-align: center;
+}
+
+/* HEADING */
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+/* COLOR INPUT */
+#colorPicker {
+    width: 20%;
+    height: 2rem;
+    cursor: pointer;
+}
+
+
+
+/* SELECTED COLOR TEXT */
+p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: black;
+}
+
+#colorName {
+    font-weight: bold;
+}
+
+/* COLOR PREVIEW BOX */
+.color-box {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto 0;
+    border: 2px solid rgb(175, 172, 172)
+    
+}
+
