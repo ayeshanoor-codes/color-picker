@@ -56,13 +56,7 @@ The app allows users to select any color using the color input field, and it vis
 ## Author
 
 Developed by **Ayesha Noor**.
-Feel free to use, improve, or customize this project.
 
----
-
-## License
-
-This project is open-source and free to use for learning and practice.
 
 ---
 
